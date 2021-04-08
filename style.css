@@ -1,0 +1,65 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#mainContainer {
+  display: flex;
+  background-color: #fefaf5;
+  font-family: Quicksand;
+  width: 100vw;
+  height: 100vh;
+}
+
+#calculator, #fortuneTeller {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#calculator {
+  border-right: #000 4px solid;
+}
+
+.icons {
+  height: 200px;
+  align-self: center;
+}
+
+label {
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  padding: 3vw;
+}
+
+button {
+  border-radius: 12px;
+  width: 120px;
+  height: 40px;
+  border: #000 2px solid;
+  background-color: #aec69e;
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#fortune-output {
+  width: 75%;
+  font-size: 24px;
+  font-weight: 600;
+}
